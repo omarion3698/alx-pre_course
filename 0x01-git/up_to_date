@@ -1,0 +1,16 @@
+touch
+mkdir
+git branch
+git checkout -b update_script
+git add .
+git commit -m "message"
+git push origin master
+git push origin update_script
+git pull origin master
+git status
+rm -r directory
+rmdir emptydirectory
+echo "message here" > fileName
+echo "message here to append " >> fileName
+less bash/alx
+cat bash/alx
